@@ -70,7 +70,6 @@ const draw = () => {
     hidden.classList.remove("hide");
     resetBtn.classList.add("hide")
     disablebtn();
-
 }
 
 
@@ -81,7 +80,8 @@ const checkWinner = () => {
         let posVal1 = boxes[pattern[0]].innerText;
         let posVal2 = boxes[pattern[1]].innerText;
         let posVal3 = boxes[pattern[2]].innerText;
-
+         
+        
         if (posVal1 != "" && posVal2 != "" && posVal3 != "") {
             if (posVal1 === posVal2 && posVal2 === posVal3) {
                 // console.log(`Winner-${posVal1}`)
@@ -90,7 +90,7 @@ const checkWinner = () => {
         }
 
     }
-
+     
     // draw logic
     let d0 = boxes[0].innerText
     let d1 = boxes[1].innerText
@@ -102,13 +102,19 @@ const checkWinner = () => {
     let d7 = boxes[7].innerText
     let d8 = boxes[8].innerText
 
-    if (d0 !== "" && d1 !== "" && d2 !== "" && d3 !== "" && d4 !== "" && d5 !== "" && d6 !== "" && d7 !== "" && d8 !== "") {
-        if ((d0 !== d1 && d1 !== d2) && (d0 !== d3 && d3 !== d6) && (d0 !== d4 && d4 !== d8) && (d1 !== d4 && d4 !== d7) && (d2 !== d5 && d5 !== d8) && (d2 !== d4 && d4 !== d6) && (d3 !== d4 && d4 !== d5) && (d6 !== d7 && d7 !== d8)) {
+    if (d0 !== "" && d1 !== "" && d2 !== "" && d3 !== "" && d4 !== "" && d5 !== "" && d6 !== "" && d7 !== "" && d8 !== ""){
+        if(((d0 !== d1) || (d0 !== d2) || (d1 !== d2)) &&
+           ((d0 !== d3) || (d0 !== d6) || (d3 !== d6)) &&
+           ((d0 !== d4) || (d0 !== d8) || (d4 !== d8)) &&
+           ((d1 !== d4) || (d1 !== d7) || (d4 !== d7)) &&
+           ((d2 !== d5) || (d2 !== d8) || (d5 !== d8)) &&
+           ((d2 !== d4) || (d2 !== d6) || (d4 !== d6)) &&
+           ((d3 !== d4) || (d3 !== d5) || (d4 !== d5)) &&
+           ((d6 !== d7) || (d6 !== d8) || (d7 !== d8)) 
+        ){
             draw();
         }
-    }
-
-
+    } 
 
 
 }
