@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #199f92;
+}
+
+/* navbar with heading */
+#nav {
+    background-color: #115b53;
+    /* text-shadow: 1px 1px 15px whitesmoke; */
+    color: white;
+    padding: 1%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* main container */
+#container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 80vh;
+    width: 100vw;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* message box including new button */
+.score {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-content: space-between;
+    width: 45vw;
+    height: 10vh;
+    text-align: center;
+    /* text-transform: uppercase; */
+    font-size: 2vw;
+    padding-top: 2%;
+}
+
+/* winning message */
+#msg{
+    font-weight: 400;
+    font-size: 3vw;
+    font-style: italic;
+}
+
+/* new button margin */
+#new-btn{
+    margin-top: 3vh;
+}
+
+/* to hide meesage box and button */
+.hide{
+    display: none;
+}
+
+/* play-borad container*/
+#game {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    /* grid-gap: 1%; */
+    width: 50vw;
+    height: 45vh;
+    justify-content: center;
+
+}
+
+/* playboard styling */
+.box {
+    border: 5px solid #127168;   
+    width: 12vw;
+    height: 18vh;
+    border-collapse: collapse;
+    background-color: #43b5a9;
+    font-size: 7vw;
+    box-shadow: 10px 15px 20px #127168;
+}
+
+/* button styling for newGmae and reset button  */
+.btn {
+    background-color: black;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 300;
+    font-size: 1.3vw;
+    width: 10vw;
+    height: 5vh;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+
+/* to hide border */
+.bl {
+    border-left: none;
+}
+.br {
+    border-right: none;
+}
+.bt {
+    border-top: none;
+}
+.bb {
+    border-bottom: none;
+}
+
+/* to set radius */
+.rtl {
+    border-top-left-radius: 10px;
+}
+.rtr {
+    border-top-right-radius: 10px;
+}
+.rbl {
+    border-bottom-left-radius: 10px;
+}
+.rbr {
+    border-bottom-right-radius: 10px;
+}
+
+/* button hovering */
+.mouse:hover{
+    opacity: 0.8;
+}
+

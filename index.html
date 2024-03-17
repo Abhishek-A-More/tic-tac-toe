@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- media query link -->
+    <link rel="stylesheet" href="mediaq.css">
+
+</head>
+
+<body>
+    <header>
+        <!-- navbar with game nameheading -->
+        <nav id="nav">
+            <h1>TIC<sub>x</sub>TAC<sub>o</sub>TOE</h1>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <!-- main container for game playboard and winning message -->
+            <div id="container">
+                <div class="score hide">
+                    <div><strong id="msg"></strong></div> <!-- winning message box -->
+                    <div><button id="new-btn" class="btn mouse">New Game</button></div> <!-- new button -->
+                </div>
+                <div id="game"> <!-- play board -->
+                    <button class="box bl bt rtl"></button>
+                    <button class="box bt"></button>
+                    <button class="box br bt rtr"></button>
+                    <button class="box bl"></button>
+                    <button class="box"></button>
+                    <button class="box br"></button>
+                    <button class="box bl bb rbl"></button>
+                    <button class="box bb"></button>
+                    <button class="box bb br rbr"></button>
+                </div>
+                <div>
+                    <button type="reset" id="res-btn" class="btn reset mouse">Reset Game</button> <!-- reset button-->
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="game.js"></script>
+</body>
+
+</html>
