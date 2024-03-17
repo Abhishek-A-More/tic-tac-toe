@@ -1,13 +1,13 @@
-@media only screen and (max-width:1220px){
+@media only screen and (max-width:1220px) {
     #game {
         width: 50vw;
         height: 45vh;
         justify-content: center;
-    
+
     }
 
     .box {
-        border-width:3px;
+        border-width: 3px;
         width: 15vw;
         height: 15vh;
         font-size: 7vw;
@@ -20,22 +20,22 @@
         padding-top: 2%;
     }
 
-    #msg{
+    #msg {
         font-size: 3.5vw;
     }
 
 }
 
-@media only screen and (max-width:1050px){
+@media only screen and (max-width:1050px) {
     #game {
         width: 50vw;
         height: 45vh;
         justify-content: center;
-    
+
     }
 
     .box {
-        border-width:3px;
+        border-width: 3px;
         width: 15vw;
         height: 15vh;
         font-size: 7vw;
@@ -54,30 +54,30 @@
         padding-top: 2%;
     }
 
-    #msg{
+    #msg {
         font-size: 3.5vw;
     }
 
 
 }
 
-@media only screen and(max-width){
+@media only screen and(max-width) {
     .box {
         font-size: 7vw;
     }
 
 }
 
-@media only screen and (max-width:800px){
+@media only screen and (max-width:800px) {
     #game {
         width: 50vw;
         height: 45vh;
         justify-content: center;
-    
+
     }
 
     .box {
-        border-width:3px;
+        border-width: 3px;
         width: 15vw;
         height: 15vh;
         font-size: 7vw;
@@ -96,21 +96,21 @@
         padding-top: 2%;
     }
 
-    #msg{
+    #msg {
         font-size: 4vw;
     }
 }
 
-@media only screen and (max-width:700px){
+@media only screen and (max-width:700px) {
     #game {
         width: 60vw;
         height: 45vh;
         justify-content: center;
-    
+
     }
 
     .box {
-        border-width:3px;
+        border-width: 3px;
         width: 18vw;
         height: 15vh;
         font-size: 7vw;
@@ -130,12 +130,12 @@
         padding-top: 2%;
     }
 
-    #msg{
+    #msg {
         font-size: 4vw;
     }
 }
 
-@media only screen and (max-width:600px){
+@media only screen and (max-width:600px) {
     .score {
         width: 100vw;
         height: 11vh;
@@ -143,25 +143,25 @@
         padding-top: 2%;
     }
 
-    .box{
+    .box {
         font-size: 7vw;
     }
 
-    #msg{
+    #msg {
         font-size: 5vw;
     }
 }
 
-@media only screen and (max-width:550px){
+@media only screen and (max-width:550px) {
     #game {
         width: 80vw;
         height: 45vh;
         justify-content: center;
-    
+
     }
 
     .box {
-        border-width:3px;
+        border-width: 3px;
         width: 22vw;
         height: 15vh;
         font-size: 8vw;
@@ -181,21 +181,21 @@
         padding-top: 2%;
     }
 
-    #msg{
+    #msg {
         font-size: 5vw;
     }
 }
 
-@media only screen and (max-width:400px){
+@media only screen and (max-width:400px) {
     #game {
         width: 80vw;
         height: 45vh;
         justify-content: center;
-    
+
     }
 
     .box {
-        border-width:3px;
+        border-width: 3px;
         width: 22vw;
         height: 15vh;
         font-size: 9vw;
@@ -215,28 +215,28 @@
         padding-top: 2%;
     }
 
-    #msg{
+    #msg {
         font-size: 5vw;
     }
 
 }
 
-@media only screen and (max-width:300px){
+@media only screen and (max-width:300px) {
     #game {
         width: 90vw;
         height: 45vh;
         justify-content: center;
-    
+
     }
 
     .box {
-        border-width:3px;
+        border-width: 3px;
         width: 25vw;
         height: 15vh;
         font-size: 9vw;
     }
 
-    #nav{
+    #nav {
         font-size: 6vw;
     }
 
@@ -247,7 +247,7 @@
         padding-top: 2%;
     }
 
-    #msg{
+    #msg {
         font-size: 5vw;
     }
 }

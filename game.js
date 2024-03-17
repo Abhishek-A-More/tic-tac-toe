@@ -90,7 +90,7 @@ const checkWinner = () => {
         }
 
     }
-     
+
     // draw logic
     let d0 = boxes[0].innerText
     let d1 = boxes[1].innerText

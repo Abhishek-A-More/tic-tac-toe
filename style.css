@@ -31,7 +31,7 @@ body {
 .score {
     display: flex;
     flex-direction: column;
-    justify-content:center;
+    justify-content: center;
     align-content: space-between;
     width: 45vw;
     height: 10vh;
@@ -42,19 +42,19 @@ body {
 }
 
 /* winning message */
-#msg{
+#msg {
     font-weight: 400;
     font-size: 3vw;
     font-style: italic;
 }
 
 /* new button margin */
-#new-btn{
+#new-btn {
     margin-top: 3vh;
 }
 
 /* to hide meesage box and button */
-.hide{
+.hide {
     display: none;
 }
 
@@ -71,7 +71,8 @@ body {
 
 /* playboard styling */
 .box {
-    border: 5px solid #127168;   
+    border: 5px solid #127168;
+    font-family: "Protest Riot", sans-serif;
     width: 12vw;
     height: 18vh;
     border-collapse: collapse;
@@ -99,12 +100,15 @@ body {
 .bl {
     border-left: none;
 }
+
 .br {
     border-right: none;
 }
+
 .bt {
     border-top: none;
 }
+
 .bb {
     border-bottom: none;
 }
@@ -113,18 +117,20 @@ body {
 .rtl {
     border-top-left-radius: 10px;
 }
+
 .rtr {
     border-top-right-radius: 10px;
 }
+
 .rbl {
     border-bottom-left-radius: 10px;
 }
+
 .rbr {
     border-bottom-right-radius: 10px;
 }
 
 /* button hovering */
-.mouse:hover{
+.mouse:hover {
     opacity: 0.8;
 }
-
